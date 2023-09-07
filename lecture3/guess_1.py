@@ -2,11 +2,15 @@
 #     answer = x / y
 #     return answer
 
-def my_personal_sum2(numlist: list):
-    answer = 0
-    for num in numlist:
-         answer += num
-    return answer
+# def my_personal_sum2(numlist: list):
+#     answer = 0
+#     for num in numlist:
+#          answer += num
+#     return answer
+#
+# _list = [1,2,3]
+# print(my_personal_sum2(_list))
 
-_list = [1,2,3]
-print(my_personal_sum2(_list))
+x: str = input('enter')
+if x == x[len(x)::-1]:
+    print('polindrome')
