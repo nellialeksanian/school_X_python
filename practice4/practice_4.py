@@ -7,7 +7,7 @@ def sort_racers(RACE_DATA: dict) -> dict:
     return sorted_rd
 
 def print_first_racer (sorted_rd: dict) -> str:
-    winner = f"Имя победителя {sorted_rd[1]['RacerName']}"
+    winner = f"Выиграл - {sorted_rd[1]['RacerName']}!!!! Поздравляем!!!"
     print(winner + "\n" + "-" * len(winner))
 
 def print_top_racers (sorted_rd: dict) -> str:
