@@ -9,12 +9,12 @@ def sort_racers(race_data: dict) -> dict:
     return sorted_rd
 
 
-def print_first_racer(sorted_rd: dict) -> str:
+def print_first_racer(sorted_rd: dict):
     winner: str = f"Выиграл - {sorted_rd[1]['RacerName']}!!!! Поздравляем!!!"
     print(winner + "\n" + "-" * len(winner))
 
 
-def print_top_racers(sorted_rd: dict) -> str:
+def print_top_racers(sorted_rd: dict):
     print("Первые 3 места:\n")
     for k in range(1, 4):
         value: dict = sorted_rd[k]
