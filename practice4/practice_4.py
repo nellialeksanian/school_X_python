@@ -19,7 +19,7 @@ def print_top_racers (sorted_rd: dict) -> str:
               f"\tКоманда:{value['RacerTeam']}\n" +
               f"\tВремя:{value['FinishedTimeSeconds'] // 3600}:" +
               f"{value['FinishedTimeSeconds'] % 3600 // 60}:" +
-              f"{value['FinishedTimeSeconds'] % 60} \n"
+              f"{value['FinishedTimeSeconds'] % 60} (H:M:S) \n"
               )
 
 if __name__ == "__main__":
