@@ -3,7 +3,7 @@ _newlist = []
 
 for i in range(len(_list)):
     if _list[i] - _list[i - 1] > 1:
-        _newlist.append(_list[i])
+        _newlist.append(i)
 
 if len(_newlist) == 0:
     print('Не найдено')
